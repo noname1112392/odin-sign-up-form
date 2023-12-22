@@ -1,3 +1,11 @@
+/* Import the google font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Define a custome class */
+.font-rubik {
+    font-family: 'Rubik Lines', sans-serif;
+}
