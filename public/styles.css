@@ -596,6 +596,14 @@ video {
   bottom: 0px;
 }
 
+.top-5{
+  top: 1.25rem;
+}
+
+.top-20{
+  top: 5rem;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -717,6 +725,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-stone-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 10 9 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-30{
