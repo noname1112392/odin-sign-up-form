@@ -9,3 +9,10 @@
 .font-rubik {
     font-family: 'Rubik Lines', sans-serif;
 }
+
+/* Custom background for the left side */
+.bg-custom-img {
+    background-image: url('/img/steve-busch--u2cn3h8CvA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
