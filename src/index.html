@@ -31,7 +31,7 @@
             <!-- Right side container -->
             <div class="w-2/3 flex flex-col justify-center bg-gray-200 border border-green-500">
                 <!-- Top content -->
-                <div class="p-2">
+                <div class="p-5">
                     <h3 class="p-2 font-medium">
                         This is not a real online service! You know you need something like this in your life to help
                         you realize your deepest dreams. Sign up now to get started.
@@ -41,28 +41,34 @@
                     </h3>
                 </div>
                 <!-- Middle content -->
-                <div class="p-2 bg-white shadow-lg">
-                    <h2 class="p-2">
+                <div class="p-5 bg-white shadow-lg flex flex-col">
+                    <h2 class="p-5">
                         Let's do this!
                     </h2>
                     <!-- form for sign up -->
-                    <div>
-                        <form action="#">
-                            <div>
-                                <label for="">First Name</label>
-                                <input type="text" id="first-name" name="first-name">
-                                <label for="">Email</label>
-                                <input type="text" id="email" name="email">
-                                <label for="">Password</label>
-                                <input type="text" id="password" name="password">
+                    <div class="border border-green-800 pl-5">
+                        <form action="#" class="flex space-x-5">
+                            <div class="border border-red-400 flex flex-col justify-between space-y-10">
+                                <div class="flex flex-col space-y-2">
+                                    <label for="">First Name</label>
+                                    <input type="text" id="first-name" name="first-name" class="border border-gray-200 rounded-md w-60 h-8 p-2">
+                                </div>
+                                <div class="flex flex-col space-y-2">
+                                    <label for="">Email</label>
+                                    <input type="email" id="email" name="email" class="border border-gray-200 rounded-md w-60 h-8 p-2">
+                                </div>
+                                <div class="flex flex-col space-y-2">
+                                    <label for="">Password</label>
+                                    <input type="password" id="password" name="password" class="border border-gray-200 rounded-md w-60 h-8 p-2">
+                                </div>
                             </div>
-                            <div>
+                            <div class="border border-blue-400 flex flex-col">
                                 <label for="">Last Name</label>
                                 <input type="text" id="last-name" name="last-name">
                                 <label for="">Phone Number</label>
                                 <input type="text" id="phone-number" name="phone-number">
                                 <label for="">Confirm Password</label>
-                                <input type="text" id="confirm-number" name="confirm-number">
+                                <input type="password" id="confirm-number" name="confirm-number">
                             </div>
                         </form>
                     </div>
